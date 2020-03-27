@@ -22,14 +22,14 @@ header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7 ),rgba(0, 0, 0, 0.7)) ,url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     background-attachment: fixed;
 }
 
 
 .hero-text-box{
     position: absolute;
-    width: 1040px;
+    width: 500px;
     max-width: 100%;
     top: 50%;
     left: 50%;
@@ -189,4 +189,8 @@ h2:after{
     opacity: 1;
     transform: scale(1.03) ;
     transition: transform 0.5 opacity 0.5s;
+}
+.logo{
+    width: 30%;
+    height: 30%;
 }
